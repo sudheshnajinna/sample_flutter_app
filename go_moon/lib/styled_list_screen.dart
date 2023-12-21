@@ -9,9 +9,9 @@ class StyledListScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
   title: Text(
-    'Sample Project: SJ',
+    'SAMPLE - PROJECT : SJ',
     style: TextStyle(
-      color: Colors.black, // or any color you prefer
+      color: Color.fromARGB(255, 29, 2, 45), // or any color you prefer
       fontWeight: FontWeight.bold,
       fontFamily: 'Times New Roman',
       fontSize: 24,
@@ -20,7 +20,7 @@ class StyledListScreen extends StatelessWidget {
   centerTitle: true, // To center the AppBar title
   backgroundColor: Color.fromARGB(207, 161, 105, 235), // Set the AppBar background color
 ),
-
+backgroundColor: Color.fromARGB(141, 221, 185, 245),
       body: Center( // Center the grid on the screen
         child: Container(
           width: 250, // Fixed width for the centered grid column
